@@ -1,9 +1,9 @@
-import './Content.css'
+import './content.css'
 import React from "react"
 import { Switch, Route} from 'react-router-dom'
-import Inicio from '../../views/contents/Inicio'
-import Detalhes from '../../views/contents/Detalhes'
-import Introducao from '../../views/contents/Introducao'
+import Inicio from '../../views/contents/inicio'
+import Detalhes from '../../views/contents/detalhes'
+import Introducao from '../../views/contents/introducao'
 
 const Content = props => (
     <main className="Content">
